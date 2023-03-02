@@ -3,7 +3,7 @@
 set -o pipefail
 
 echo "======================"
-echo "= Linting YAML files ="
+echo "= Linting YAML fileSSSSS ="
 echo "======================"
 
 if [[ -z "$LOGFILE" ]]; then
@@ -30,7 +30,7 @@ fi
 
 # Enable globstar so ** globs recursively
 shopt -s globstar
-
+whereis yamllint
 yamllint "${options[@]}" ${INPUT_FILE_OR_DIR:-.} | tee -a "$LOGFILE"
 exitcode=$?
 
