@@ -30,7 +30,8 @@ fi
 
 # Enable globstar so ** globs recursively
 shopt -s globstar
-whereis yamllint
+echo "CHAPCHAPCHAP"
+exit 1
 yamllint "${options[@]}" ${INPUT_FILE_OR_DIR:-.} | tee -a "$LOGFILE"
 exitcode=$?
 
