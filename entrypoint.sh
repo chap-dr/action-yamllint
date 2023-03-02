@@ -3,7 +3,7 @@
 set -o pipefail
 
 echo "======================"
-echo "= Linting YAML fileSSSSS ="
+echo "= Linting YAML fileSSSSSx ="
 echo "======================"
 
 if [[ -z "$LOGFILE" ]]; then
